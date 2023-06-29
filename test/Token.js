@@ -46,7 +46,7 @@ describe('Token', () => {
   })
 
 
-  describe('Sending Tokens', () => {
+       describe('Sending Tokens', () => {
     let amount, transaction, result
 
     describe('Success', () => {
@@ -90,6 +90,20 @@ describe('Token', () => {
   })
 
 })
+describe ('Approving Tokens', () => {
+
+
+    describe('Success', () =>  {
+     it('allocates an allowance for delegated token spending',async () => {
+     })
+    })
+
+    describe('Failure', () => {
+
+
+
+})
+
 
 
 
